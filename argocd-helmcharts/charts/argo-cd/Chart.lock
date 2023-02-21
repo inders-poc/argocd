@@ -1,0 +1,6 @@
+dependencies:
+- name: redis-ha
+  repository: https://inders-poc.github.io/helm-charts/
+  version: 4.22.4
+digest: sha256:bc033639fb5e8fe94d48ea6a77d2202595f94be9a095c5e9ad81b733650bc9a2
+generated: "2023-02-21T20:43:30.457041+04:00"

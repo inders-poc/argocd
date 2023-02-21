@@ -19,4 +19,8 @@ maintainers:
 annotations:
   artifacthub.io/changes: |
     - kind: changed
-      description: Grouped component templates together
+dependencies:
+  - name: redis-ha
+    version: 4.22.4
+    repository: https://inders-poc.github.io/helm-charts/
+    condition: redis-ha.enabled 
